@@ -1,0 +1,32 @@
+@import url(reset.css);
+
+body {
+	font-family: 'Calibri', sans-serif;
+	font-size: 18px;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 125%;
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+aside {
+	float: right;
+	padding: 20px;
+	background-color: #EEE;
+	border: 1px dotted #CCC;
+}
+
+section p:first-of-type:first-line {
+	font-variant: small-caps;
+}

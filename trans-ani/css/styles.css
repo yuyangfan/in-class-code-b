@@ -1,0 +1,50 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+:focus {
+	outline: #F00 dotted 2px;
+	background-color: #FFF700;
+}
+
+h1 {
+	font-size: 150%;
+	font-weight: bold;
+	line-height: 48px;
+}
+
+header {
+	background-color: #EEE;
+	width: 40%;
+}
+
+header img {
+	float: right;
+	opacity: 0.5;
+}
+
+header img:hover {
+	opacity: 1;
+}
+
+article {
+	clear: both;
+}
+
+.zoom {
+	margin-left: 50px;
+	transition: all 1s;
+}
+
+.zoom:hover {
+	-webkit-transform: scale(1.5) rotate(360deg);
+	-moz-transform: scale(1.5) rotate(360deg);
+	-o-transform: scale(1.5) rotate(360deg);
+	-ms-transform: scale(1.5) rotate(360deg);
+	transform: scale(1.5) rotate(360deg);
+}
