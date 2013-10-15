@@ -1,0 +1,30 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Andika);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+/* this setting tells the browser to include padding and borders
+when calculating the width or height of an element */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Andika', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Pacifico', serif;
+}
+
+h1 {
+    font-size: 200%;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 150%;
+    margin-bottom: 0.5em;
+}
+
